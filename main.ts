@@ -1,5 +1,6 @@
 radio.onReceivedNumber(function (receivedNumber) {
     if (receivedNumber == 0) {
+        basic.clearScreen()
         // disarm the safe
         safeState = 0
         opened = 0
